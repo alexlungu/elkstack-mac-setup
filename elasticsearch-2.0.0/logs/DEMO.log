@@ -1,0 +1,19 @@
+[2015-10-29 11:10:24,841][INFO ][node                     ] [DEMO_Master] version[2.0.0], pid[8781], build[de54438/2015-10-22T08:09:48Z]
+[2015-10-29 11:10:24,842][INFO ][node                     ] [DEMO_Master] initializing ...
+[2015-10-29 11:10:24,934][INFO ][plugins                  ] [DEMO_Master] loaded [], sites []
+[2015-10-29 11:10:25,038][INFO ][env                      ] [DEMO_Master] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [428.2gb], net total_space [464.9gb], spins? [unknown], types [hfs]
+[2015-10-29 11:10:27,029][INFO ][node                     ] [DEMO_Master] initialized
+[2015-10-29 11:10:27,030][INFO ][node                     ] [DEMO_Master] starting ...
+[2015-10-29 11:10:27,164][INFO ][transport                ] [DEMO_Master] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[fe80::1]:9300}, {[::1]:9300}
+[2015-10-29 11:10:27,173][INFO ][discovery                ] [DEMO_Master] DEMO/Zgj-pVPXQQGu4lrQU5anEg
+[2015-10-29 11:10:30,207][INFO ][cluster.service          ] [DEMO_Master] new_master {DEMO_Master}{Zgj-pVPXQQGu4lrQU5anEg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2015-10-29 11:10:30,229][INFO ][http                     ] [DEMO_Master] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[fe80::1]:9200}, {[::1]:9200}
+[2015-10-29 11:10:30,230][INFO ][node                     ] [DEMO_Master] started
+[2015-10-29 11:10:30,273][INFO ][gateway                  ] [DEMO_Master] recovered [0] indices into cluster_state
+[2015-10-29 11:11:04,845][INFO ][cluster.metadata         ] [DEMO_Master] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2015-10-29 11:11:24,939][INFO ][cluster.metadata         ] [DEMO_Master] [logstash-2015.10.29] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_, apache]
+[2015-10-29 11:11:25,374][INFO ][cluster.metadata         ] [DEMO_Master] [logstash-2015.10.29] update_mapping [apache]
+[2015-10-29 11:11:33,509][INFO ][cluster.metadata         ] [DEMO_Master] [.kibana] create_mapping [index-pattern]
+[2015-10-29 11:11:38,189][INFO ][cluster.metadata         ] [DEMO_Master] [.kibana] update_mapping [config]
+[2015-10-29 11:11:41,486][INFO ][cluster.metadata         ] [DEMO_Master] [.kibana] create_mapping [search]
+[2015-10-29 11:51:01,096][INFO ][cluster.metadata         ] [DEMO_Master] [.kibana] create_mapping [dashboard]
